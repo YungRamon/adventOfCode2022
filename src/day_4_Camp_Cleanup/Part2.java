@@ -21,6 +21,7 @@ public class Part2 {
 			if((nums[0]>=nums[2] && nums[0]<=nums[3]) ||(nums[1]>=nums[2] && nums[1]<=nums[3]) || (nums[2]>=nums[0] && nums[3]<=nums[1])) 
 				cont++;
 		}
+		reader.close();
 		System.out.println(cont);
 	}
 }
